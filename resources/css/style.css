@@ -53,7 +53,7 @@ header span {
   display: flex;
   justify-content: flex-end;
 }
-.headline p {
+.headline h1 {
   color: black;
   font-size: 2rem;
   line-height: 1.2;
@@ -81,7 +81,6 @@ header span {
   padding: 0;
   margin: 3rem 3rem;
   align-items: center;
-  border: 1px solid red;
 }
 
 .service h4 {
@@ -100,4 +99,26 @@ header span {
 
 #fittings img, #delivery img {
   width: 5rem;
+}
+
+/* Info */
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-item {
+  width: 35%;
+  margin: 5%;
+}
+.info-title {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
 }
