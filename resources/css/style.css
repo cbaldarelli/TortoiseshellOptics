@@ -7,6 +7,9 @@ html {
   width: 960px;
   margin: 0 auto;
 }
+
+/* Main Banner */
+
 .hero {
   background-image: url('../images/glasses-bg.png');
   background-repeat: no-repeat;
@@ -16,6 +19,8 @@ html {
   display: flex;
   flex-direction: column;
 }
+
+/* Header Bar */
 
 header {
   color: white;
@@ -33,9 +38,6 @@ header img {
   margin-right: 1rem;
 }
 
-header p {
-  margin-left: 0;
-}
 
 header nav {
 margin-right: 0;
@@ -43,4 +45,21 @@ margin-right: 0;
 
 header span {
   padding-left: 2rem;
+}
+
+/* Banner Headline */
+.headline {
+  display: flex;
+  justify-content: flex-end;
+}
+.headline p {
+  color: black;
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
 }
