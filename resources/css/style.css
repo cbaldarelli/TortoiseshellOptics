@@ -106,6 +106,7 @@ header span {
 .info {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5rem;
 }
 
 .info-item {
@@ -125,4 +126,29 @@ header span {
 
 .info-content {
   line-height: 1.4;
+}
+
+/* Footer */
+
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+footer h4 {
+  margin: 0;
+  padding: 0;
+}
+
+footer .copywright {
+  display: flex;
+  padding: 4rem;
+  align-items: center;
+  justify-content: flex-start;
 }
