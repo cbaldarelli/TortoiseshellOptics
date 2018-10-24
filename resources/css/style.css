@@ -186,7 +186,7 @@ footer .copywright {
   }
 }
 
-@media only screen and (max-width:580px) {
+@media only screen and (max-width:630px) {
   header {
     margin-top: 0;
   }
@@ -219,5 +219,22 @@ footer .copywright {
     font-size: 1rem;
     padding: 1rem;
     margin-top: 9rem;
+  }
+
+  .services {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3.77rem;
+  }
+
+  .service {
+    margin: 1.54rem;
+    height: auto;
+  }
+
+  .service h4 {
+    font-size: 0.77rem;
+    padding-top: 1.2rem;
   }
 }
