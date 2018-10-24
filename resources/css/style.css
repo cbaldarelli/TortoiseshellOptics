@@ -168,6 +168,9 @@ footer .copywright {
     width: 100%;
   }
 
+  .hero {
+    height: 22rem;
+  }
   .headline h1 {
     font-size: 1.33rem;
     line-height: 1.2;
