@@ -44,6 +44,9 @@ header {
   margin-right: 1rem;
 }
 
+.mobile {
+  display: none;
+}
 
 header nav {
 margin-right: 0;
@@ -164,6 +167,9 @@ footer .copywright {
     margin-top: 0;
   }
 
+  .mobile {
+    display: none;
+  }
   .container {
     width: 100%;
   }
@@ -177,5 +183,41 @@ footer .copywright {
     padding: 0.75rem 4rem;
     margin-top: 5rem;
     margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width:580px) {
+  header {
+    margin-top: 0;
+  }
+
+  .large {
+  display: none;
+  }
+  .mobile {
+    display: flex;
+  }
+
+  .logo p {
+    display: none;
+  }
+  .container {
+    width: 100%;
+  }
+
+  .hero {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .headline {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: 9rem;
   }
 }
