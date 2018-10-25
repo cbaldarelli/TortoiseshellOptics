@@ -243,4 +243,23 @@ footer .copywright {
     font-size: 0.77rem;
     padding-top: 1.2rem; /*Inspect whether the margins above .service are too big*/
   }
+
+  .info {
+    flex-direction: column;
+  }
+  .info-item {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+
+  .info-title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .info-content {
+    font-size: 0.77rem;
+    padding-left: 0.5rem;
+  }
 }
