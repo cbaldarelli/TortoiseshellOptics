@@ -39,6 +39,7 @@ header {
   display: flex;
   align-items: center;
 }
+
 .logo img {
   height: 1.5rem;
   margin-right: 1rem;
@@ -57,10 +58,12 @@ header span {
 }
 
 /* Banner Headline */
+
 .headline {
   display: flex;
   justify-content: flex-end;
 }
+
 .headline h1 {
   color: black;
   font-size: 2rem;
@@ -101,6 +104,7 @@ header span {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
 #exams img {
   width: 3.5rem;
 }
@@ -121,6 +125,7 @@ header span {
   width: 35%;
   margin: 5%;
 }
+
 .info-title {
   font-size: 1rem;
   font-weight: bold;
@@ -145,6 +150,7 @@ footer {
   justify-content: flex-start;
   margin: 0 -2rem;
 }
+
 footer img {
   height: 1.5rem;
   margin-right: 1rem;
@@ -162,7 +168,10 @@ footer .copywright {
   justify-content: flex-start;
 }
 
+/* ------ TABLET ------- */
+
 @media only screen and (max-width:960px) {
+
   header {
     margin-top: 0;
   }
@@ -170,6 +179,7 @@ footer .copywright {
   .mobile {
     display: none;
   }
+
   .container {
     width: 100%;
   }
@@ -177,6 +187,7 @@ footer .copywright {
   .hero {
     height: 22rem;
   }
+
   .headline h1 {
     font-size: 1.33rem;
     line-height: 1.2;
@@ -185,6 +196,8 @@ footer .copywright {
     margin-right: 2rem;
   }
 }
+
+/* ------ MOBILE ------- */
 
 @media only screen and (max-width:650px) {/*Add text in html head to get Google Dev Tools to read media queries*/
 
@@ -195,6 +208,7 @@ footer .copywright {
   .large {
   display: none;
   }
+
   .mobile {
     display: flex;
   }
@@ -202,6 +216,7 @@ footer .copywright {
   .logo p {
     display: none;
   }
+
   .container {
     width: 100%;
   }
@@ -210,8 +225,6 @@ footer .copywright {
     height: 17rem;
     background-position: 20%;
   }
-
-
 
   .headline h1 {
     font-size: 1rem;
@@ -233,6 +246,7 @@ footer .copywright {
   #exams, #fittings {
     margin-bottom: 1.54rem;
   }
+
   .service {
     height: auto;
     margin: 0;
@@ -246,6 +260,7 @@ footer .copywright {
   .info {
     flex-direction: column;
   }
+
   .info-item {
     width: 100%;
     margin: 0 auto;
@@ -266,6 +281,7 @@ footer .copywright {
   footer {
     justify-content: center;
   }
+
   footer h4 {
     display: none;
   }
