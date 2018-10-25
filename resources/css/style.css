@@ -186,7 +186,8 @@ footer .copywright {
   }
 }
 
-@media only screen and (max-width:630px) {
+@media only screen and (max-width:650px) {/*Add text in html head to get Google Dev Tools to read media queries*/
+
   header {
     margin-top: 0;
   }
@@ -210,16 +211,17 @@ footer .copywright {
     background-position: 20%;
   }
 
-  .headline {
-    width: 100%;
-    margin: 0 auto;
-  }
+
 
   .headline h1 {
     font-size: 1rem;
     padding: 1rem;
     margin-top: 9rem;
-  }
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    line-height: 1;
+ }
 
   .services {
     flex-direction: column;
@@ -235,6 +237,6 @@ footer .copywright {
 
   .service h4 {
     font-size: 0.77rem;
-    padding-top: 1.2rem;
+    padding-top: 1.2rem; /*Inspect whether the margins above .service are too big*/
   }
 }
