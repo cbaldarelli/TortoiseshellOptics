@@ -228,7 +228,6 @@ footer .copywright {
     justify-content: center;
     align-items: center;
     margin: 3.77rem;
-    border: 1px solid red;
   }
 
   #exams, #fittings {
@@ -256,10 +255,18 @@ footer .copywright {
   .info-title {
     width: 100%;
     text-align: center;
+    padding-left: 0;
   }
 
   .info-content {
     font-size: 0.77rem;
     padding-left: 0.5rem;
+  }
+
+  footer {
+    justify-content: center;
+  }
+  footer h4 {
+    display: none;
   }
 }
