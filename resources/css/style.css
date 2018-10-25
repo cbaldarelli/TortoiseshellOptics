@@ -228,11 +228,15 @@ footer .copywright {
     justify-content: center;
     align-items: center;
     margin: 3.77rem;
+    border: 1px solid red;
   }
 
+  #exams, #fittings {
+    margin-bottom: 1.54rem;
+  }
   .service {
-    margin: 1.54rem;
     height: auto;
+    margin: 0;
   }
 
   .service h4 {
